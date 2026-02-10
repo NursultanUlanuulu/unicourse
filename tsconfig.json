@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "types": ["vue", "vue3-toastify/global"],
+  },
+  // "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

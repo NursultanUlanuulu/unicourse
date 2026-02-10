@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  fronted:
+    image: unikurs-front
+    container_name: fronted
+    ports:
+      - 8080:80
+    environment:
+       REACT_APP_BACKEND_URL: back.kochkor-ata-meria.kg
+    restart: always
